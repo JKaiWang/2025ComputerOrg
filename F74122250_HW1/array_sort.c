@@ -26,18 +26,6 @@ int main(int argc, char *argv[])
 
     int *p_a = &arr[0];
 
-    // array a bubble sort
-    /* Original C code segment
-    for (int i = 0; i < arr_size - 1; i++) {
-        for (int j = 0; j < arr_size - i -1; j++) {
-            if (*(p_a + j) > *(p_a + j + 1)) {
-                int tmp = *(p_a + j);
-                *(p_a + j) = *(p_a + j + 1);
-                *(p_a + j + 1) = tmp;
-            }
-        }
-    }
-    */
 
     for (int i = 0; i < arr_size - 1; i++) {
         for (int j = 0; j < arr_size - i - 1; j++) {
